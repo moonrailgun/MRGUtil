@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MRGUtil
 {
-    public class Class1
+    interface IUtil
     {
+        public string GetVersion();
+        public string GetInternalVersion();
     }
 }
