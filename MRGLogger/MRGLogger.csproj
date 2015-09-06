@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{50BB856B-3618-4500-8465-5025ABEA574A}</ProjectGuid>
+    <ProjectGuid>{C393AF7F-0B0E-4CE8-812F-BE191C77C5CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MRGUtil</RootNamespace>
-    <AssemblyName>MRGUtil</AssemblyName>
+    <RootNamespace>MRGLogger</RootNamespace>
+    <AssemblyName>MRGLogger</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,9 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IUtil.cs" />
-    <Compile Include="Util.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="LogLevel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MRGUtil\MRGUtil.csproj">
+      <Project>{50bb856b-3618-4500-8465-5025abea574a}</Project>
+      <Name>MRGUtil</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

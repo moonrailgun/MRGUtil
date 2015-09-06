@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRGUtil", "MRGUtil\MRGUtil.csproj", "{50BB856B-3618-4500-8465-5025ABEA574A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRGLogger", "MRGLogger\MRGLogger.csproj", "{C393AF7F-0B0E-4CE8-812F-BE191C77C5CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{50BB856B-3618-4500-8465-5025ABEA574A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50BB856B-3618-4500-8465-5025ABEA574A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50BB856B-3618-4500-8465-5025ABEA574A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C393AF7F-0B0E-4CE8-812F-BE191C77C5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C393AF7F-0B0E-4CE8-812F-BE191C77C5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C393AF7F-0B0E-4CE8-812F-BE191C77C5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C393AF7F-0B0E-4CE8-812F-BE191C77C5CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
